@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# 本代码实现方法：
+# 1. 只是实现了最简单的竖、列、宫内查找方法
+# 还有一个常用方法进行计算，但代码未写出
+# 1. bilibili上叫宫排除唯一法
+# 通过观看哔哩哔哩发现还有很多方法，并且都有命名
 
 def xyfind(m):
     print("starting index")
