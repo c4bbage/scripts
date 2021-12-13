@@ -96,7 +96,7 @@ def main(proj_path):
             if diff_version.compareVersion(value, VERSION) == -1:
                 print(
                     "log4j-api version {} is not correct: {}".format(value, result['path']))
-    return json.dumps(result
+    return json.dumps(result)
 
 
 if __name__ == "__main__":
